@@ -23,8 +23,8 @@ This project applies **Low-Rank Adaptation (LoRA)** to fine-tune the RoBERTa mod
 - **Techniques Used**: Low-Rank Adaptation (LoRA), AdamW optimizer, CosineLR scheduler, Mixed Precision (fp16)
 - **Result**: 88.1% validation accuracy, 85.275% private Kaggle leaderboard accuracy (Rank 37)
 
-##How to Run the Code
-###1. Clone the repository
+## How to Run the Code
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/isha-harish/lora-roberta-text-classifier.git
@@ -32,12 +32,12 @@ cd  lora-roberta-text-classifier
 
 ```
 
-###2. Open the notebook
+### 2. Open the notebook
 
 ```bash
 jupyter notebook "FineTuning with LoRa.ipynb"
 ```
-###3. Run the cells
+### 3. Run the cells
 Follow the instructions in the notebook to:
 
 - Load and preprocess the AG News dataset
@@ -46,7 +46,7 @@ Follow the instructions in the notebook to:
 
 - Track the training process and evaluate the model performance
 
-##Acknowledgements
+## Acknowledgements
 Hugging Face for their transformers and datasets libraries
 
 Weights & Biases for tracking the model's performance
